@@ -1,0 +1,29 @@
+
+.ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s ease-in;
+}
+@media screen and (max-width:741px){
+    .ul{
+
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        height: calc(100vh - 50px);
+        transform: translateX(-500px);
+        background: rgb(179, 58, 58);
+    }
+    .ul li a{
+        display: block;
+        margin-top: 20px;
+    }
+    .nav-ul{
+        transform: translateX(0);
+        left: 0;
+    }
+    
+}
